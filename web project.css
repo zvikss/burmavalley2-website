@@ -1,0 +1,202 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #007bff; /* Change this to any color you prefer when hovering */
+}
+
+/* Button Styles */
+button {
+    border-radius: 16px;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: opacity 0.15s;
+}
+
+button:hover {
+    background-color: rgba(42, 2, 2, 0.727);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+}
+
+/* Image Styles */
+.burma-image, .community-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 350px; /* Limits the maximum width */
+    height: 250px; /* Maintains aspect ratio */
+    margin: 20px 0; /* Adds spacing above and below */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* Image Styles */
+ .quote {
+    width: 100%; /* Makes the image responsive */
+    max-width: 350px; /* Limits the maximum width */
+    height: 250px; /* Maintains aspect ratio */
+    margin: 20 0; /* Adds spacing above and below */
+    margin-left: 25%; /* Adds spacing to the left*/
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Adds spacing above the form */
+}
+
+form label {
+    margin: 10px 0 5px; /* Adds spacing around labels */
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Adds spacing below inputs */
+}
+
+form button {
+    padding: 10px;
+    background-color: #28a745; /* Green background for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Table Styles */
+.needed-items-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between borders */
+    margin-top: 20px; /* Space above the table */
+    border-radius: 8px; /* Rounded corners for the Table */
+    overflow: hidden; /* Ensures the corners are rounded correctly */
+    border: 1px solid #ccc; /* Border thickness and color */ 
+}
+
+.needed-items-table th,
+.needed-items-table td {
+    border: 1px solid #ccc; /* Light border for table cells */
+    padding: 10px; /* Cell padding */
+    text-align: left; /* Left align text */
+}
+
+.needed-items-table th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+/* Donation Button Styles */
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background for donation button */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.donate-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* New Contact Page Styles */
+.contact-details {
+    margin-top: 20px; /* Space above contact details section */
+}
+
+.contact-details h2 {
+    margin-top: 20px; /* Space above the section header */
+}
+
+.contact-details p {
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+/* Social Media Links Styles */
+.social-media {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.social-media li {
+    padding: 5px 0; /* Space between list items */
+}
+
+.social-media a:hover {
+    color: red;
+    text-decoration: underline; /* Underline on hover */
+}
+
+.email:hover {
+    color: red;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%; /* Ensures the footer spans the full width */
+    position: relative; /* Normal flow */
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+   color: white;
+}
